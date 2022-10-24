@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>3. DN :: OIS 2021/2022</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="icon" href="./favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="knjiznice/js/koda.js"></script>
+  </head>
+  <body>
+    <!-- ZAČETEK: Menujska vrstica na vrhu spletne strani -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- ZAČETEK: Ime vaše aplikacije -->
+        <a class="nav-link navbar-brand" href="index.html"
+          >Moja - Šala</a
+        >
+        <!-- KONEC: Ime vaše aplikacije -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menujska-vrstica"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" title="Prikaži menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menujska-vrstica">
+          <div class="navbar-nav">
+            <a class="nav-link" href="opis.html"><i class="fa-solid fa-book me-1"></i>Opis ideje</a>
+            <a class="nav-link" href="nacrt.html"
+              ><i class="fa-solid fa-diagram-project me-1"></i>Načrt informacijske rešitve</a
+            >
+            <a class="nav-link" href="#"><i class="fa-solid fa-gears me-1"></i>Generiranje podatkov</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- KONEC: Menujska vrstica na vrhu spletne strani -->
+
+    <!-- ZAČETEK: Načrt informacijske rešitve -->
+    <div class="container">
+      <div class="card text-center m-3 mb-4">
+        <div class="card-header pb-0">
+          <h4>
+            <i class="fa-solid fa-diagram-project me-2"></i>Diagram primerov
+            uporabe
+          </h4>
+        </div>
+        <div class="card-body">
+          <!-- ZAČETEK: Diagram primerov uporabe -->
+          <img
+            src="https://teaching.lavbic.net/plantuml/png/VPBFRi8m3CRlUGfhky212zAadIOnzaVin04UmAIc3Ir9vQIm2V7kInCAAMnSekJt-RETEBPKkaR6BQnGbZcRHcVIL8R1CMhh9T9Es7DKHcjiAhUWRpUfLAwtNWRf5-8agh4aqH8S12Hvfo7llb2EMcuu8uxiyUdZzVbzwYaocts4gyexnJ59Yz9vVhWonxZ_2gL-RTpzdjP6ktZxdF7dN2T1Ho4gMZjm1bZbXODCCKcdZ1OYjlSmAVrZF01Q2BiEBmXbeNGEa_aig1tmvoxcovJKoQTz9ysaViEiXK4zxONeddhmIPfO-Q5jo5zqfmfeQiEuqgeqks7h6UIabmcxUEScGrSgg5a1Kwwi7xvK6nLj2S7KnBGc_pqaNIfXTDHUMbxOtqrQh6XKdvD4fuTtuzKs2HmFXGXl3AFH2_HlbmXf_mdkDva8RUghurY8VlgWf1DCYzo8_L8tSgWGQ3VMbWHm-WM_"
+            class="mt-4 mb-4"
+          />
+          <!-- KONEC: Diagram primerov uporabe -->
+        </div>
+      </div>
+
+      <div class="card text-center m-3 mb-4">
+        <div class="card-header pb-0">
+          <h4>
+            <i class="fa-solid fa-diagram-project me-2"></i>Razredni diagram
+          </h4>
+        </div>
+        <div class="card-body">
+          <!-- ZAČETEK: Razredni diagram -->
+          <img
+            src="https://teaching.lavbic.net/plantuml/png/ZLPjZzeu4FxEhuYwLSNg5f1EEkc4sfvObctPjXG1svFk2veaGt3Ys3dRWLrM-zzl75xYW5iT7r3oF3FZySpZSNJ6H04AyY3Ye7NmqWg24A8iKR8KyL1ogOBjcXcqk5GngZrszSVzxP-Z8Q6WbDpkmP2JP-krfKz1XJJulsCc2fu9MabX6e319pFWB14v2XD4z8VAhe8c492ZBY32ETe53Ja9AT39e5uugc8Q1O8y54LfhLcCGSHKnB7L6bRxPoB6f-xQv3nu_pwqRg2UFtwizd2rOagR2ItP9xkYD4kRcIN8rOj3SWvPL1Q6IJ6-wmSQEKP7k50Oec8MRqRPe1BW65yLaZF3eYQeG3DzWMhCV32X1MSHCqrOwDNMUJ_zAXS1lRkDZ94tV3eT-lkjr6O3DlVsTJ_OI1PRaEqeKS6cCWQJeSiKIb9lSnSoc0lssKL2r1WB6BkOLckUiWqqxEIEHIwGWVhYlk-WaEV14nHKQmNfjpbmwMKQnEjH81djffjgKaT4EbMI7yJHMOm6my_ZoQVbO3fUtWx-6L2HZ68YiUHyD9cFnilPOFWuyU2tm-LiEbm-phwwv5d4-UZCmDgm71yBgI0KB0FNkL2CkCnFQWDAQkCdAs4wSN25T5eYF5jP0uS7_77GPXswWgUEGi-ecQlJCsxUKEiPEMfezeoSpE__zgInrnagdNby5fNaobogI-xs83vozwH9GqHNElGuMZLUPlW532PIiTJZSYVvZZLTEaqbqioZqvMsjJa-WXqInYVRvXdC55fm1b4fN5pXloLgyo3fO9x6sarm76Ha-J3_FlaUfljJJlOpfD6egdut0-s9KyVRry4bMpVTIpjzz_9EwxsyxRutAQV_NiTQ0ZvtHmJ-j4ywy7hlbU3rFBJSomt4isTwpND6C_URJ361Ak6qwVtpOUiVQ3JHtxPZ6PNsKhskRhmJLq-xDtSGMutG17fpUI7kPVffjEZtWxKnHR_NsswtNTfr77OZcVUWOBqws08XMfF0ATWlOxru1zzhRwC4QzVJwIR8U5f6nzSBoKuVVn4BTcLLav_7kmdeYhF5MK18JttwL94SGLpS28VwN6xfk1zR6asrsVpUJScMYjADSTEppszVKgn70pK8N_-glg8u7OTx3ed-O4r-q07Ti-zMKkLWFfWdyyuy5qZq1dXvc25OsTZKMiTxgjDnlcbSrEc62zSDhz7Z5ly3"
+            class="mt-4 mb-4"
+          />
+          <!-- KONEC: Razredni diagram -->
+        </div>
+      </div>
+
+      <div class="card text-center m-3 mb-4">
+        <div class="card-header pb-0">
+          <h4>
+            <i class="fa-solid fa-diagram-project me-2"></i>Diagram zaporedja
+          </h4>
+        </div>
+        <div class="card-body">
+          <!-- ZAČETEK: Diagram zaporedja -->
+          <img
+            src="https://teaching.lavbic.net/plantuml/png/xLBRRjD047tVhrWLL84YaZGD4efeKQzGBg9IMjx7ziGUUxrhTjTkcYeVqn_XBV_5s8R42KXzv8KNUtREcJDdPpQX2ENC61-OkH0k8rs0XLm646QnDQMEGgECbTw2TWoXzXrMX3CebR_1kJzH5EkSOHdo1ss71Q5dXGSXPM1iXFQiKGmKjwXpwqvj_YuXZsBPhRVMt7MBDf33xoNg41jrHJFyJ1fFErsUlRuyVNDnnYWNU0gf0EsV9ZpfIHlVDlsx_UshnXRkEJKpseURn5A8TZAtXR4GQCg4IFwluz-juuzjT2p8lGdf2EVznETgJuAJNmzsyCn4q4zT2uvsm8ycmvFhgnOyt07F8Th2nytBe0huKXixwqY-EkRkijSJ_AtZ4STo8j_UzeR3qV1uGzIq2D2Yp5Y9VvLrhBXw12KToTKFL2H9owgWrIFAgnmbq-Ir9Sen4opR4Lz0ON9DKvhcv51zCId6yA7CZKtXnSlVv4Dclh-ucSZ4-y9D1eDgr4_vQb1GFy9gKCVF7rByn8PYOoc5AIXSlciUaYBdBnN4xgYcV6EpBRe_CpO7V-JdVj_V5yXm1Qh4SwCM_BuQZeXmFJAUxoyxurqx589EO151L3lfXoOVR5MEcyfslfDw4Xdmc6JflCM5RcU7MnMZhTD1zxJUmqy0"
+          />
+          <!-- KONEC: Diagram zaporedja -->
+        </div>
+      </div>
+    </div>
+    <!-- KONEC: Načrt informacijske rešitve -->
+  </body>
+</html>
